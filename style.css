@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    background-image: url('images/header-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.wrapper {
+    width: 55%;
+    margin: 0 auto;
+}
+.logo {
+    width: 50%;
+}
+.townIcon {
+    width: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.blockTown {
+    display: flex;
+    align-items: center;
+    gap:13px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content {
+    border: 35px solid #ffca44;
+    text-align: center;
+    height: 65vh;
+    margin-top: 70px;
+    padding: 70px 50px 70px 50px;
+}
+.content h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.content h3 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.content p {
+    color: white;
+    font-size: 15px;
+    /* margin-bottom: 20px; */
+}
+.gold {
+    color: #ffca44
+}
+.phoneBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap:10px
+}
+.phoneBlock p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.btnAccept {
+    border: none;
+    border-radius: 5px;
+    background-color: #ffca44;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.title {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.titleText {
+    text-align: center;
+    margin-top: 20px;
+}
+.hr {
+    position: relative;
+    width: 60px;
+    right: 80px;
+    bottom: 14px;
+}
+.locationContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.locationDest{
+    font-weight: bold;
+    font-size: 24px;
+}
+.locationBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.locationBlock img {
+    width: 150px;
+}
+.img1 {
+    width: 350px;
+    height: 200px;
+}
+.titleBlock1{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.hr2 {
+      position: relative;
+    width: 60px;
+    right: 80px;
+    bottom: 44px;
+}
+.relative {
+    position: relative;
+}
+.blockContainer {
+    display: flex;
+    margin-top:30px;
+    gap: 50px
+}
+.block1Title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.priceBlock {
+    width: 150px;
+    border: 5px solid #ffca44;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #ffca44;
+    position: absolute;
+    right: 10px;
+    top: 32px;
+}
+.square2 {
+    width: 60px;
+    height: 60px;
+    border: 10px solid #ffca44;
+    position: absolute;
+    left: -77px;
+    top: -48px;
+}
+.square3 {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #ffca44;
+    position: absolute;
+    left: 305px;
+    bottom: 27px;
+}
+.carouselBlock {
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url('images/3-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hr3 {
+    position: relative;
+    width: 60px;
+    right: 80px;
+    bottom: 14px;
+}
+.singleAdvantage {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.singleAdvantage img {
+    width: 60px;
+}
+.singleAdvantage div p:first-child{
+    font-size: 14px;
+}
+.advantageContainer{ 
+    display: flex;
+    justify-content: center;
+    gap:30px
+}
+.moreInfoBtn {
+    background-color: #ffca44;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+}
+.moreInfoBlock {
+    display: flex;
+    justify-content: center;
+}
+.hr4{
+    width: 70%;
+    position: relative;
+    margin-top: 100px;
+    left: 250px;
+
+}
+.conteiner2{
+    background-image: url(images/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 70vh;
+    position: relative;
+    margin-top: 100px;
+}
+.map{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+.conteiner3{
+    background-image: url(images/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 70vh;
+    width: 100%;
+}
+.application{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    height: 50vh;
+    display: flex;
+    flex-flow: column;
+    align-content:space-around ;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+h1{
+    color: #ffca44;
+}
+b{
+    color: #ffca44;
+}
+.application2{
+    color: white;
+    position: absolute;
+    right: 400px;
+    top: 95px;
+    height: 50vh;
+    display: flex;
+    flex-flow: column;
+    align-content:space-around ;
+}
+input{
+    height: 40px;
+}
+.btnAccept2{
+    border: none;
+    background-color: #ffca44;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact{
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
+.phoneContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.conteiner3{
+    position: relative;
+}
+.contact2{
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 50px; 
+    flex-flow: column;
+    display:flex ;
+    text-align: center;
+} 
+.contact2 p {
+    font-size: 20px;
+    font-weight: 40px;
+}  
+
+
+.contactBlock img{
+    width: 10%;
+    
+}
+.contact2 h1 {
+    text-transform: uppercase;
+}
+.contact2 h2 {
+    text-transform: uppercase;
+}
